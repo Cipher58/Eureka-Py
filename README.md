@@ -1,4 +1,6 @@
-# Eureka-Py: Library for interaction with the Eureka API.
+# Eureka-Py
+
+Library for interaction with the Eureka API.
 
 ## Installation
 
