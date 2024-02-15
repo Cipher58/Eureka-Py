@@ -5,18 +5,18 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     # Here is the module name.
-    name="Eureka-Py",
+    name="EurekaAPI",
 
     # version of the module
-    version="0.0.1",
+    version="0.0.2",
 
     # Name of Author
     author="Cipher58",
 
-    download_url = 'https://github.com/Cipher58/Eureka-Py',
+    download_url = 'https://github.com/Eureka-API/EurekaPy',
 
     # your Email address
-    author_email="cipher58public@gmail.com",
+    author_email="info@timewiserobot.com",
 
     # #Small Description about module
     # description="adding number",
@@ -28,7 +28,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
 
     # Any link to reach this module, ***if*** you have any webpage or github profile
-    url='https://github.com/Cipher58/Eureka-Py',
+    url='https://github.com/Eureka-API/EurekaPy',
 
     packages=setuptools.find_packages(),
 
