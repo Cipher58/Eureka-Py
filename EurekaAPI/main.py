@@ -1,4 +1,4 @@
-from EurekaPy.API_request import *
+from EurekaAPI.API_request import *
 
 class Eureka_Agent:
     def __init__(self, API_Key):

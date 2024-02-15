@@ -10,6 +10,6 @@ class APIInterface:
             "API-Key": f"{self.API_Key}"
             }, data=json.dumps({
             "query": f"{message}"
-            ))
+            }))
 
         return response
