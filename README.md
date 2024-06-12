@@ -21,10 +21,20 @@ Agent = Eureka_Agent("YOUR_API_KEY")
 
 # Send a message to the API
 
-response = Agent.say("Hello, world!")
+request_response = Agent.say("Hello, world!")
 
-# Print the response text
+# JSONify the response (Makes it more readable)
+
+response = request_response.json()
+
+# Print the response JSON
 
 print(response)
+
+# Extract the text response
+
+text_response = response.get("response")
+
+print(text_response)
 
 ```
